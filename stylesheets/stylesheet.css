@@ -4,9 +4,9 @@
   text-align: center;
   border-bottom: #a1ce92;
   display: flex;
-  padding:20px;
-  position:fixed;
-  margin: 0 30px 0 30px ;
+  padding: 20px;
+  position: fixed;
+  margin: 0 30px 0 30px;
 }
 
 .services {
@@ -24,7 +24,6 @@ header {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
 article {
   margin: 30px;
   padding: 25px;
@@ -41,11 +40,9 @@ footer {
   text-align: center;
 }
 
-
-
-#back-to-top{
-  background-color: #a1ce92);
-  border-radius: 50%;
+#back-to-top {
+  background-color: #a1ce92;
+  border-radius: 100%;
   border: solid #a1ce92;
   width: 50px;
   height: 50px;
@@ -59,4 +56,83 @@ footer {
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+/* -------------------Mobile device---------------------------------- */
+@media screen and (max-width: 480px) {
+  #navbar {
+    margin: 0;
+    padding: 0;
+  }
+  .services {
+    font-size: 10px;
+    margin: 20px;
+    padding: 10px;
+  }
+  #header {
+    margin: 0;
+    padding: 5px;
+  }
+  footer {
+    margin: 0;
+    padding: 0;
+    font-size: 3vw;
+  }
+
+  #pp {
+    width: 150px;
+    height: auto;
+  }
+
+  article {
+    margin: 0;
+    font-size: 3vw;
+  }
+}
+
+/* ---------------------Tablet Device--------------------------- */
+@media screen and (max-width: 1024px) {
+  #navbar {
+    margin: 0;
+    padding: 0;
+  }
+  .services {
+    margin: 0;
+    font-size: 2vw;
+    padding: 0 50px 0 50px;
+  }
+  #header {
+    margin: 0;
+    padding: 0;
+  }
+  footer {
+    margin: 0;
+    padding: 0;
+    font-size: 5px;
+    margin: 0;
+  }
+  #contact {
+    font-size: 20px;
+    padding: 10px;
+    margin: 0;
+  }
+  .socials {
+    font-size: 20px;
+    padding: 10px;
+  }
+}
+
+/* --------------------Desktop device------------------------ */
+@media screen and (max-width: 1280px) {
+  #navbar {
+    padding: 20px;
+    margin: 10px;
+  }
+  #header {
+    font-size: 10vw;
+  }
+
+  footer {
+    font-size: 10vw;
+  }
 }
