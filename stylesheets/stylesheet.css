@@ -58,16 +58,20 @@ footer {
   margin-right: auto;
 }
 
+
 /* -------------------Mobile device---------------------------------- */
 @media screen and (max-width: 480px) {
   #navbar {
+    display: none;
+    position: absolute;
     margin: 0;
     padding: 0;
   }
   .services {
-    font-size: 10px;
-    margin: 20px;
-    padding: 10px;
+    margin: 0;
+    font-size: 2vw;
+    padding: 0;
+    max-width: 30%;
   }
   #header {
     margin: 0;
@@ -119,20 +123,5 @@ footer {
   .socials {
     font-size: 20px;
     padding: 10px;
-  }
-}
-
-/* --------------------Desktop device------------------------ */
-@media screen and (max-width: 1280px) {
-  #navbar {
-    padding: 20px;
-    margin: 10px;
-  }
-  #header {
-    font-size: 10vw;
-  }
-
-  footer {
-    font-size: 10vw;
   }
 }
