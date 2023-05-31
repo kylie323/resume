@@ -58,20 +58,17 @@ footer {
   margin-right: auto;
 }
 
-
 /* -------------------Mobile device---------------------------------- */
 @media screen and (max-width: 480px) {
   #navbar {
-    display: none;
-    position: absolute;
     margin: 0;
     padding: 0;
   }
   .services {
+    display: contents;
     margin: 0;
     font-size: 2vw;
-    padding: 0;
-    max-width: 30%;
+    padding: 0, 5px, 0, 5px;
   }
   #header {
     margin: 0;
